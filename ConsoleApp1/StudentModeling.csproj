@@ -48,16 +48,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Annealer.cs" />
-    <Compile Include="Group.cs" />
-    <Compile Include="GSolver.cs" />
-    <Compile Include="InvalidDistanceException.cs" />
+    <Compile Include="Solvers\Annealer.cs" />
+    <Compile Include="Entities\Group.cs" />
+    <Compile Include="Solvers\GSolver.cs" />
+    <Compile Include="Exceptions\InvalidDistanceException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StartFinish.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="Task.cs" />
-    <Compile Include="TreeNode.cs" />
+    <Compile Include="Helpers\StartFinish.cs" />
+    <Compile Include="Entities\Student.cs" />
+    <Compile Include="Entities\Task.cs" />
+    <Compile Include="Helpers\TreeNode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
